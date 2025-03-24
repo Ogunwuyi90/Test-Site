@@ -1,0 +1,108 @@
+/* Feel free to change any of the styling below!*/
+body {
+    text-align: center;
+
+}
+
+img {
+    width: 300px;
+ 
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+  
+
+}
+
+.buttons2 {
+    display: flex;
+    justify-content: space-evenly;
+  
+
+}
+
+.buttons3 {
+    display: flex;
+    justify-content: space-evenly;
+  
+
+}
+
+p {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+button {
+    height: 40px;
+  border-radius:30px
+}
+
+
+h1 {
+    font-size: 50px;
+    color: black;
+}
+
+/* When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for that step!*/
+
+/*
+.story-opening{
+   display:none;
+}
+*/
+
+/* 
+.buttons{
+   display:none;
+}
+*/
+
+.option-one-screen{
+  display:none;
+ 
+}
+
+.option-two-screen{
+  display:none;
+}
+
+.option-one-end{
+  display:none;
+}
+
+.option-two-end{
+  display:none;
+}
+
+.option-three-end{
+  display:none;
+  
+  
+}
+
+.last {
+            display:flex;
+  justify-content:center;
+  width: 230px;
+            height: 195px;
+            margin: 50px;
+            background-image: url(
+"https://preview.redd.it/ou5hdashhzm81.png?width=1024&format=png&auto=webp&s=5cdfeac29d913bb3c692c52fa0b6a847d17fca3c");
+            background-size: cover;
+            transition: background-image 0.3s ease-in-out;
+        }
+ 
+        .last:hover {
+            background-image: url(
+"https://weareawesomeness.wordpress.com/wp-content/uploads/2010/11/naruto-lying.jpg");
+      
+}
